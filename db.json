@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "date": 1,
+      "value": 10000,
+      "status": "accept",
+      "infobanking": "abc",
+      "comment": "123"
+    },
+    {
+      "id": 2,
+      "date": 3,
+      "value": 30000,
+      "status": "denied",
+      "infobanking": "bac",
+      "comment": "tester"
+    },
+    {
+      "id": 3,
+      "date": 2,
+      "value": 20000,
+      "status": "cancle",
+      "infobanking": "bacaa",
+      "comment": "test"
+    },
+    {
+      "id": 4,
+      "date": 4,
+      "value": 20000,
+      "status": "cancle",
+      "infobanking": "bacaa",
+      "comment": "test"
+    },
+    {
+      "value": 10000,
+      "infobanking": "mb",
+      "comment": "test",
+      "date": "15:241 8-1-2023",
+      "status": "accept",
+      "id": 5
+    },
+    {
+      "value": 1000,
+      "infobanking": "bac",
+      "comment": "test",
+      "date": "15:311 8-1-2023",
+      "status": "accept",
+      "id": 6
+    },
+    {
+      "value": 10000,
+      "infobanking": "mb bank",
+      "comment": "test test",
+      "date": "15:32 8-2-2023",
+      "status": "accept",
+      "id": 7
+    },
+    {
+      "value": 1,
+      "infobanking": "1",
+      "comment": "1",
+      "date": "16:17 8-2-2023",
+      "status": "accept",
+      "id": 8
+    },
+    {
+      "value": 50000,
+      "infobanking": "tech",
+      "comment": "testtt",
+      "date": "16:35 8-2-2023",
+      "status": "accept",
+      "id": 9
+    },
+    {
+      "value": 1,
+      "infobanking": "1",
+      "comment": "1",
+      "date": "15:26 10-2-2023",
+      "status": "accept",
+      "id": 10
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "currentValue": 100000,
+      "online": true
+    },
+    {
+      "id": 2,
+      "currentValue": 200000,
+      "online": false
+    }
+  ]
+}

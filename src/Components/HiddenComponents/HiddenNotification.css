@@ -1,0 +1,55 @@
+.HiddenNoti_bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HiddenNoti_wrapper{
+    background-color: white;
+    border-radius: 16px;
+    width: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.HiddenNoti_title{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.HiddenNoti_box{
+    padding: 4px 34px 40px;
+
+}
+.HiddenNoti_btn{
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 8px 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    margin-left: 12px;
+}
+.HiddenNoti_close{
+    background-color: #fff;
+    border: 1px solid #f05050;
+    color:#f05050;
+}
+.HiddenNoti_accept{
+    border: 1px solid #579d2d;
+    background-color: #579d2d;
+}
+.HiddenNoti_close:hover{
+    box-shadow: 0px 0px 3px #f05050;
+    filter: blur(.1px);
+}
+.HiddenNoti_accept:hover{
+    box-shadow: 0px 0px 3px #579d2d;
+    filter: blur(.1px);
+}

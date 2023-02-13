@@ -1,0 +1,69 @@
+.TableElement{
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: 600;
+}
+.Table_header-row{
+    border-bottom: 1px solid #ddd;
+}
+.Table_header{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+.Table_header_title{
+    text-align: center;
+    padding: 8px 10px 8px 10px;
+    border-radius: 16px;
+    background-color:#d9e0e4;
+}
+.Table_body_row{
+    border-bottom: 1px solid #ddd;
+}
+.Table_body{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+.Table_body_value{
+    text-align: center;
+    padding: 8px 10px 8px 10px;
+    border-radius: 16px;
+    background-color:#fff;
+}
+.Table_body_actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table_btn{
+    border-radius: 16px;
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: normal;
+    cursor: pointer;
+    color: white;
+    margin-left: 12px;
+}
+.Table_btn{
+    width: 35%;
+}
+.Form_btn{
+    border: 1px solid #579d2d;
+    background-color: #579d2d;
+}
+.Detail_btn:hover,
+.Form_btn:hover{
+    box-shadow: 0px 0px 3px rgb(87, 157, 45);
+    filter: blur(.1px);
+}
+.Cancle_btn{
+    border: 1px solid #f05050;
+    background-color: #f05050;
+}
+.Cancle_btn:hover{
+    box-shadow: 0px 0px 3px #f05050;
+    filter: blur(.1px);
+}
+.Detail_btn{
+    border: 1px solid #579d2d;
+    color: #579d2d;
+}
